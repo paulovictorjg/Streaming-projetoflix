@@ -1,0 +1,102 @@
+.wrapper {
+  background-image: linear-gradient(black, rgb(17, 17, 78));
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body{
+  background-image: linear-gradient(black, rgb(17, 17, 78));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 32px; /* Adicione a margem superior desejada */
+}
+
+.carousel-inner {
+  max-height: 300px;
+  width: auto;
+}
+
+h1 {
+  color: chocolate;
+}
+
+.form {
+  width: auto;
+  height: 100vh;
+}
+
+.form-config {
+  width: 50%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.205);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 7px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-config a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-config form input[type="email"],
+.form-config form input[type="password"] {
+  width: 80%;
+  height: 55px;
+  border: 2px solid rgba(248, 248, 248, 0.911);
+  border-radius: 7px;
+  background-color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.form-config form input[type="submit"] {
+  width: 40%;
+  height: 45px;
+}
+
+.form-config label {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.categoria a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.efeito:hover{
+  transition: 0.6s;
+  transform: scale(1.1 , 1.1);
+}
+
+.efeitoCont{
+  transition-duration: 0.6s;
+}
+
+.footer-1{
+  width: 100%;
+  height: 70px;
+  padding: 25px;
+}
+
+.footer-1 , h5{
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-config {
+    width: 97%;
+  }
+}

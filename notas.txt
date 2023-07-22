@@ -1,0 +1,31 @@
+//cadastro usuario
+const sequelize = require("sequelize");
+const connection = require("./database/connection");
+
+const Usuario = connection.define("usuarios", {
+  email: {
+    type: sequelize.STRING,
+    allowNull: false,
+  },
+  senha: {
+    type: sequelize.STRING,
+    allowNull: false,
+  },
+  senha2: {
+    type: sequelize.STRING,
+    allowNull: false,
+  },
+});
+
+Usuario.sync({ force: false }).then(() => {});
+module.exports = Usuario;
+
+
+//conection
+const sequelize = require("sequelize");
+const connection = new sequelize("cadastroUser", "root", "", {
+  host: "localhost",
+  dialect: "mysql",
+});
+module.exports = connection;
+

@@ -1,0 +1,28 @@
+<%- include('partials/head.ejs') %>
+
+    <body>
+        <div class="principal">
+            <div class="container">
+                <br>
+                <div class="title text-center">
+                    <h1>DEV Filmes</h1>
+                    <br>
+                </div>
+                <div class="form">
+                    <div class="form-config">
+                        <form action="/cadastro-user" method="post">
+                            <label for="">Digite Seu Email</label><br>
+                            <div><input type="email" class="btn btn-ligth" name="email" id="" placeholder="digite Seu email"></div><br>
+                            <label for="">Digite sua Senha</label><br>
+                            <div><input type="password" class="btn btn-ligth" name="senha" id="" placeholder="digite sua senha"></div><br>
+                            <label for="">Confirme sua Senha</label><br>
+                            <div><input type="password" class="btn btn-ligth" name="senha_2" id="" placeholder="confirme sua senha"></div><br>
+                            <div><input type="submit" class="btn btn-success" name="" id="" value="cadastrar"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <%- include('partials/footer.ejs') %>
