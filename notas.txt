@@ -1,1 +1,14 @@
+<<<<<<< Updated upstream
+=======
+configuracao do terminal 
 
+npm install "comando do pacote de instalacao" --save
+
+instalar 
+>>>>>>> Stashed changes
+
+ npm install body-parser --save
+ npm install express --save
+ npm install ejs --save
+ npm install sequelize --save
+ npm install mysql2 --save
